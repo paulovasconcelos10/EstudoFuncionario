@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Autenticavel.cs" />
+    <Compile Include="IAutenticavel.cs" />
     <Compile Include="Desenvolvedor.cs" />
     <Compile Include="Diretor.cs" />
     <Compile Include="Funcionario.cs" />
+    <Compile Include="FuncionarioAutenficavel.cs" />
+    <Compile Include="FuncionarioTerceiro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SistemaInterno.cs" />

@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace EstudoFuncionario
 {
-    public abstract class Autenticavel : Funcionario
+    public abstract class FuncionarioAutenficavel : Funcionario, IAutenticavel
     {
-        public Autenticavel(string nome, string cpf, double salario) : base(nome, cpf, salario)
+        public FuncionarioAutenficavel(string nome, string cpf, double salario) : base(nome, cpf, salario)
         {
 
         }
-
         public string Senha { get; set; }
         public bool Autenticar(string senha)
         {
             return Senha == senha;
         }
+
     }
 }
