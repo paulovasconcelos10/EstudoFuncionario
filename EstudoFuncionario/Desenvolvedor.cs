@@ -19,7 +19,7 @@ namespace EstudoFuncionario
 
         public override void AumentarSalario()
         {
-            Salario += Salario * 0.5;
+            Salario *= 0.5;
         }
     }
 }

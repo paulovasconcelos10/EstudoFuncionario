@@ -9,8 +9,8 @@ namespace EstudoFuncionario
     public abstract class Funcionario
     {
         public string Nome { get; set; }
-        public string Cpf { get; set; }    
-        public double Salario { get; set; }    
+        public string Cpf { get; private set; }    
+        public double Salario { get; protected set; }    
 
         public Funcionario(string nome, string cpf, double salario)
         {

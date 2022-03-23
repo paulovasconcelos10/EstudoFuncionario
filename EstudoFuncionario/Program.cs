@@ -17,12 +17,18 @@ namespace EstudoFuncionario
             Console.WriteLine(desenvolvedor.Salario);
             desenvolvedor.AumentarSalario();
             Console.WriteLine(desenvolvedor.Salario);
+
             Diretor diretor = new Diretor("Victor", "56789");
             Console.WriteLine(diretor.Nome);
             Console.WriteLine(diretor.Cpf);
             Console.WriteLine(diretor.Salario);
             diretor.AumentarSalario();
             Console.WriteLine(diretor.Salario);
+
+            diretor.Senha = "123";
+            SistemaInterno sistemaInterno = new SistemaInterno();
+
+            sistemaInterno.Logar(diretor, "223");
 
             Console.ReadLine(); 
         }

@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace EstudoFuncionario
 {
-    public class Diretor : Funcionario
+    public class Diretor : Autenticavel
     {
         public Diretor(string nome, string cpf) : base(nome, cpf, 8000)
         {
 
         }
-
         public override double Bonificacao()
         {
             return Salario * 1.5;
@@ -20,7 +19,8 @@ namespace EstudoFuncionario
 
         public override void AumentarSalario()
         {
-            Salario += Salario * 1.5;
+            Salario *= 1.5;
         }
+
     }
 }
