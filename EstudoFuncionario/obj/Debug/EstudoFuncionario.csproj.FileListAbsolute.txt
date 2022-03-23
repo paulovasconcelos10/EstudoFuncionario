@@ -1,0 +1,8 @@
+C:\Users\pauli\source\repos\EstudoFuncionario\EstudoFuncionario\bin\Debug\EstudoFuncionario.exe.config
+C:\Users\pauli\source\repos\EstudoFuncionario\EstudoFuncionario\bin\Debug\EstudoFuncionario.exe
+C:\Users\pauli\source\repos\EstudoFuncionario\EstudoFuncionario\bin\Debug\EstudoFuncionario.pdb
+C:\Users\pauli\source\repos\EstudoFuncionario\EstudoFuncionario\obj\Debug\EstudoFuncionario.csproj.AssemblyReference.cache
+C:\Users\pauli\source\repos\EstudoFuncionario\EstudoFuncionario\obj\Debug\EstudoFuncionario.csproj.SuggestedBindingRedirects.cache
+C:\Users\pauli\source\repos\EstudoFuncionario\EstudoFuncionario\obj\Debug\EstudoFuncionario.csproj.CoreCompileInputs.cache
+C:\Users\pauli\source\repos\EstudoFuncionario\EstudoFuncionario\obj\Debug\EstudoFuncionario.exe
+C:\Users\pauli\source\repos\EstudoFuncionario\EstudoFuncionario\obj\Debug\EstudoFuncionario.pdb
